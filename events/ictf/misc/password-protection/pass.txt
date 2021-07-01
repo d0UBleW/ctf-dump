@@ -1,0 +1,8 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+secure           (flag.zip/flag.txt.txt)
+1g 0:00:00:00 DONE (2020-11-09 22:42) 50.00g/s 819200p/s 819200c/s 819200C/s total90..cocoliso
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
