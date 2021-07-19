@@ -1,0 +1,488 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADAM7_DX	lodepng.c	/^static const unsigned ADAM7_DX[7] = { 8, 8, 4, 4, 2, 2, 1 }; \/*x delta values*\/$/;"	v	file:
+ADAM7_DY	lodepng.c	/^static const unsigned ADAM7_DY[7] = { 8, 8, 8, 4, 4, 2, 2 }; \/*y delta values*\/$/;"	v	file:
+ADAM7_IX	lodepng.c	/^static const unsigned ADAM7_IX[7] = { 0, 4, 0, 2, 0, 1, 0 }; \/*x start values*\/$/;"	v	file:
+ADAM7_IY	lodepng.c	/^static const unsigned ADAM7_IY[7] = { 0, 0, 4, 0, 2, 0, 1 }; \/*y start values*\/$/;"	v	file:
+Adam7_deinterlace	lodepng.c	/^static void Adam7_deinterlace(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp) {$/;"	f	file:
+Adam7_getpassvalues	lodepng.c	/^static void Adam7_getpassvalues(unsigned passw[7], unsigned passh[7], size_t filter_passstart[8],$/;"	f	file:
+Adam7_interlace	lodepng.c	/^static void Adam7_interlace(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp) {$/;"	f	file:
+BPMLists	lodepng.c	/^typedef struct BPMLists {$/;"	s	file:
+BPMLists	lodepng.c	/^} BPMLists;$/;"	t	typeref:struct:BPMLists	file:
+BPMNode	lodepng.c	/^typedef struct BPMNode {$/;"	s	file:
+BPMNode	lodepng.c	/^} BPMNode;$/;"	t	typeref:struct:BPMNode	file:
+CERROR_BREAK	lodepng.c	181;"	d	file:
+CERROR_RETURN	lodepng.c	202;"	d	file:
+CERROR_RETURN_ERROR	lodepng.c	190;"	d	file:
+CERROR_TRY_RETURN	lodepng.c	196;"	d	file:
+CLCL_ORDER	lodepng.c	/^static const unsigned CLCL_ORDER[NUM_CODE_LENGTH_CODES]$/;"	v	file:
+ColorTree	lodepng.c	/^struct ColorTree {$/;"	s	file:
+ColorTree	lodepng.c	/^typedef struct ColorTree ColorTree;$/;"	t	typeref:struct:ColorTree	file:
+DEFAULT_WINDOWSIZE	lodepng.c	2332;"	d	file:
+DISTANCEBASE	lodepng.c	/^static const unsigned DISTANCEBASE[30]$/;"	v	file:
+DISTANCEEXTRA	lodepng.c	/^static const unsigned DISTANCEEXTRA[30]$/;"	v	file:
+ERROR_BREAK	lodepng.c	187;"	d	file:
+FIRSTBITS	lodepng.c	684;"	d	file:
+FIRST_LENGTH_CODE_INDEX	lodepng.c	619;"	d	file:
+HASH_BIT_MASK	lodepng.c	/^static const unsigned HASH_BIT_MASK = 65535; \/*HASH_NUM_VALUES - 1, but C90 does not like that as initializer*\/$/;"	v	file:
+HASH_NUM_VALUES	lodepng.c	/^static const unsigned HASH_NUM_VALUES = 65536;$/;"	v	file:
+Hash	lodepng.c	/^typedef struct Hash {$/;"	s	file:
+Hash	lodepng.c	/^} Hash;$/;"	t	typeref:struct:Hash	file:
+HuffmanTree	lodepng.c	/^typedef struct HuffmanTree {$/;"	s	file:
+HuffmanTree	lodepng.c	/^} HuffmanTree;$/;"	t	typeref:struct:HuffmanTree	file:
+HuffmanTree_cleanup	lodepng.c	/^static void HuffmanTree_cleanup(HuffmanTree* tree) {$/;"	f	file:
+HuffmanTree_init	lodepng.c	/^static void HuffmanTree_init(HuffmanTree* tree) {$/;"	f	file:
+HuffmanTree_makeFromFrequencies	lodepng.c	/^static unsigned HuffmanTree_makeFromFrequencies(HuffmanTree* tree, const unsigned* frequencies,$/;"	f	file:
+HuffmanTree_makeFromLengths	lodepng.c	/^static unsigned HuffmanTree_makeFromLengths(HuffmanTree* tree, const unsigned* bitlen,$/;"	f	file:
+HuffmanTree_makeFromLengths2	lodepng.c	/^static unsigned HuffmanTree_makeFromLengths2(HuffmanTree* tree) {$/;"	f	file:
+HuffmanTree_makeTable	lodepng.c	/^static unsigned HuffmanTree_makeTable(HuffmanTree* tree) {$/;"	f	file:
+INVALIDSYMBOL	lodepng.c	688;"	d	file:
+LAST_LENGTH_CODE_INDEX	lodepng.c	620;"	d	file:
+LCT_GREY	lodepng.h	/^  LCT_GREY = 0, \/*grayscale: 1,2,4,8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_GREY_ALPHA	lodepng.h	/^  LCT_GREY_ALPHA = 4, \/*grayscale with alpha: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_MAX_OCTET_VALUE	lodepng.h	/^  LCT_MAX_OCTET_VALUE = 255$/;"	e	enum:LodePNGColorType
+LCT_PALETTE	lodepng.h	/^  LCT_PALETTE = 3, \/*palette: 1,2,4,8 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_RGB	lodepng.h	/^  LCT_RGB = 2, \/*RGB: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LCT_RGBA	lodepng.h	/^  LCT_RGBA = 6, \/*RGB with alpha: 8,16 bit*\/$/;"	e	enum:LodePNGColorType
+LENGTHBASE	lodepng.c	/^static const unsigned LENGTHBASE[29]$/;"	v	file:
+LENGTHEXTRA	lodepng.c	/^static const unsigned LENGTHEXTRA[29]$/;"	v	file:
+LFS_BRUTE_FORCE	lodepng.h	/^  LFS_BRUTE_FORCE,$/;"	e	enum:LodePNGFilterStrategy
+LFS_ENTROPY	lodepng.h	/^  LFS_ENTROPY,$/;"	e	enum:LodePNGFilterStrategy
+LFS_FOUR	lodepng.h	/^  LFS_FOUR = 4,$/;"	e	enum:LodePNGFilterStrategy
+LFS_MINSUM	lodepng.h	/^  LFS_MINSUM,$/;"	e	enum:LodePNGFilterStrategy
+LFS_ONE	lodepng.h	/^  LFS_ONE = 1,$/;"	e	enum:LodePNGFilterStrategy
+LFS_PREDEFINED	lodepng.h	/^  LFS_PREDEFINED$/;"	e	enum:LodePNGFilterStrategy
+LFS_THREE	lodepng.h	/^  LFS_THREE = 3,$/;"	e	enum:LodePNGFilterStrategy
+LFS_TWO	lodepng.h	/^  LFS_TWO = 2,$/;"	e	enum:LodePNGFilterStrategy
+LFS_ZERO	lodepng.h	/^  LFS_ZERO = 0,$/;"	e	enum:LodePNGFilterStrategy
+LODEPNG_ABS	lodepng.c	144;"	d	file:
+LODEPNG_COMPILE_ALLOCATORS	lodepng.h	82;"	d
+LODEPNG_COMPILE_ANCILLARY_CHUNKS	lodepng.h	70;"	d
+LODEPNG_COMPILE_CPP	lodepng.h	88;"	d
+LODEPNG_COMPILE_DECODER	lodepng.h	55;"	d
+LODEPNG_COMPILE_DISK	lodepng.h	65;"	d
+LODEPNG_COMPILE_ENCODER	lodepng.h	60;"	d
+LODEPNG_COMPILE_ERROR_TEXT	lodepng.h	75;"	d
+LODEPNG_COMPILE_PNG	lodepng.h	50;"	d
+LODEPNG_COMPILE_ZLIB	lodepng.h	45;"	d
+LODEPNG_H	lodepng.h	27;"	d
+LODEPNG_INLINE	lodepng.c	103;"	d	file:
+LODEPNG_INLINE	lodepng.c	105;"	d	file:
+LODEPNG_MAX	lodepng.c	142;"	d	file:
+LODEPNG_MIN	lodepng.c	143;"	d	file:
+LODEPNG_RESTRICT	lodepng.c	112;"	d	file:
+LODEPNG_RESTRICT	lodepng.c	114;"	d	file:
+LODEPNG_VERSION_STRING	lodepng.c	/^const char* LODEPNG_VERSION_STRING = "20110221";$/;"	v
+LodePNGBitReader	lodepng.c	/^} LodePNGBitReader;$/;"	t	typeref:struct:__anon2	file:
+LodePNGBitReader_init	lodepng.c	/^static unsigned LodePNGBitReader_init(LodePNGBitReader* reader, const unsigned char* data, size_t size) {$/;"	f	file:
+LodePNGBitWriter	lodepng.c	/^} LodePNGBitWriter;$/;"	t	typeref:struct:__anon1	file:
+LodePNGBitWriter_init	lodepng.c	/^static void LodePNGBitWriter_init(LodePNGBitWriter* writer, ucvector* data) {$/;"	f	file:
+LodePNGColorMode	lodepng.h	/^typedef struct LodePNGColorMode {$/;"	s
+LodePNGColorMode	lodepng.h	/^} LodePNGColorMode;$/;"	t	typeref:struct:LodePNGColorMode
+LodePNGColorStats	lodepng.h	/^typedef struct LodePNGColorStats {$/;"	s
+LodePNGColorStats	lodepng.h	/^} LodePNGColorStats;$/;"	t	typeref:struct:LodePNGColorStats
+LodePNGColorType	lodepng.h	/^typedef enum LodePNGColorType {$/;"	g
+LodePNGColorType	lodepng.h	/^} LodePNGColorType;$/;"	t	typeref:enum:LodePNGColorType
+LodePNGCompressSettings	lodepng.h	/^struct LodePNGCompressSettings \/*deflate = compress*\/ {$/;"	s
+LodePNGCompressSettings	lodepng.h	/^typedef struct LodePNGCompressSettings LodePNGCompressSettings;$/;"	t	typeref:struct:LodePNGCompressSettings
+LodePNGDecoderSettings	lodepng.h	/^typedef struct LodePNGDecoderSettings {$/;"	s
+LodePNGDecoderSettings	lodepng.h	/^} LodePNGDecoderSettings;$/;"	t	typeref:struct:LodePNGDecoderSettings
+LodePNGDecompressSettings	lodepng.h	/^struct LodePNGDecompressSettings {$/;"	s
+LodePNGDecompressSettings	lodepng.h	/^typedef struct LodePNGDecompressSettings LodePNGDecompressSettings;$/;"	t	typeref:struct:LodePNGDecompressSettings
+LodePNGEncoderSettings	lodepng.h	/^typedef struct LodePNGEncoderSettings {$/;"	s
+LodePNGEncoderSettings	lodepng.h	/^} LodePNGEncoderSettings;$/;"	t	typeref:struct:LodePNGEncoderSettings
+LodePNGFilterStrategy	lodepng.h	/^typedef enum LodePNGFilterStrategy {$/;"	g
+LodePNGFilterStrategy	lodepng.h	/^} LodePNGFilterStrategy;$/;"	t	typeref:enum:LodePNGFilterStrategy
+LodePNGIText_cleanup	lodepng.c	/^static void LodePNGIText_cleanup(LodePNGInfo* info) {$/;"	f	file:
+LodePNGIText_copy	lodepng.c	/^static unsigned LodePNGIText_copy(LodePNGInfo* dest, const LodePNGInfo* source) {$/;"	f	file:
+LodePNGIText_init	lodepng.c	/^static void LodePNGIText_init(LodePNGInfo* info) {$/;"	f	file:
+LodePNGInfo	lodepng.h	/^typedef struct LodePNGInfo {$/;"	s
+LodePNGInfo	lodepng.h	/^} LodePNGInfo;$/;"	t	typeref:struct:LodePNGInfo
+LodePNGState	lodepng.h	/^typedef struct LodePNGState {$/;"	s
+LodePNGState	lodepng.h	/^} LodePNGState;$/;"	t	typeref:struct:LodePNGState
+LodePNGText_cleanup	lodepng.c	/^static void LodePNGText_cleanup(LodePNGInfo* info) {$/;"	f	file:
+LodePNGText_copy	lodepng.c	/^static unsigned LodePNGText_copy(LodePNGInfo* dest, const LodePNGInfo* source) {$/;"	f	file:
+LodePNGText_init	lodepng.c	/^static void LodePNGText_init(LodePNGInfo* info) {$/;"	f	file:
+LodePNGTime	lodepng.h	/^typedef struct LodePNGTime {$/;"	s
+LodePNGTime	lodepng.h	/^} LodePNGTime;$/;"	t	typeref:struct:LodePNGTime
+LodePNGUnknownChunks_cleanup	lodepng.c	/^static void LodePNGUnknownChunks_cleanup(LodePNGInfo* info) {$/;"	f	file:
+LodePNGUnknownChunks_copy	lodepng.c	/^static unsigned LodePNGUnknownChunks_copy(LodePNGInfo* dest, const LodePNGInfo* src) {$/;"	f	file:
+LodePNGUnknownChunks_init	lodepng.c	/^static void LodePNGUnknownChunks_init(LodePNGInfo* info) {$/;"	f	file:
+MAX_SUPPORTED_DEFLATE_LENGTH	lodepng.c	/^static const size_t MAX_SUPPORTED_DEFLATE_LENGTH = 258;$/;"	v	file:
+NUM_CODE_LENGTH_CODES	lodepng.c	626;"	d	file:
+NUM_DEFLATE_CODE_SYMBOLS	lodepng.c	622;"	d	file:
+NUM_DISTANCE_SYMBOLS	lodepng.c	624;"	d	file:
+State	lodepng.h	/^class State : public LodePNGState {$/;"	c	namespace:lodepng
+WRITEBIT	lodepng.c	422;"	d	file:
+addChunk_IDAT	lodepng.c	/^static unsigned addChunk_IDAT(ucvector* out, const unsigned char* data, size_t datasize,$/;"	f	file:
+addChunk_IEND	lodepng.c	/^static unsigned addChunk_IEND(ucvector* out) {$/;"	f	file:
+addChunk_IHDR	lodepng.c	/^static unsigned addChunk_IHDR(ucvector* out, unsigned w, unsigned h,$/;"	f	file:
+addChunk_PLTE	lodepng.c	/^static unsigned addChunk_PLTE(ucvector* out, const LodePNGColorMode* info) {$/;"	f	file:
+addChunk_bKGD	lodepng.c	/^static unsigned addChunk_bKGD(ucvector* out, const LodePNGInfo* info) {$/;"	f	file:
+addChunk_cHRM	lodepng.c	/^static unsigned addChunk_cHRM(ucvector* out, const LodePNGInfo* info) {$/;"	f	file:
+addChunk_gAMA	lodepng.c	/^static unsigned addChunk_gAMA(ucvector* out, const LodePNGInfo* info) {$/;"	f	file:
+addChunk_iCCP	lodepng.c	/^static unsigned addChunk_iCCP(ucvector* out, const LodePNGInfo* info, LodePNGCompressSettings* zlibsettings) {$/;"	f	file:
+addChunk_iTXt	lodepng.c	/^static unsigned addChunk_iTXt(ucvector* out, unsigned compress, const char* keyword, const char* langtag,$/;"	f	file:
+addChunk_pHYs	lodepng.c	/^static unsigned addChunk_pHYs(ucvector* out, const LodePNGInfo* info) {$/;"	f	file:
+addChunk_sRGB	lodepng.c	/^static unsigned addChunk_sRGB(ucvector* out, const LodePNGInfo* info) {$/;"	f	file:
+addChunk_tEXt	lodepng.c	/^static unsigned addChunk_tEXt(ucvector* out, const char* keyword, const char* textstring) {$/;"	f	file:
+addChunk_tIME	lodepng.c	/^static unsigned addChunk_tIME(ucvector* out, const LodePNGTime* time) {$/;"	f	file:
+addChunk_tRNS	lodepng.c	/^static unsigned addChunk_tRNS(ucvector* out, const LodePNGColorMode* info) {$/;"	f	file:
+addChunk_zTXt	lodepng.c	/^static unsigned addChunk_zTXt(ucvector* out, const char* keyword, const char* textstring,$/;"	f	file:
+addColorBits	lodepng.c	/^static void addColorBits(unsigned char* out, size_t index, unsigned bits, unsigned in) {$/;"	f	file:
+addLengthDistance	lodepng.c	/^static void addLengthDistance(uivector* values, size_t length, size_t distance) {$/;"	f	file:
+addPaddingBits	lodepng.c	/^static void addPaddingBits(unsigned char* out, const unsigned char* in,$/;"	f	file:
+addUnknownChunks	lodepng.c	/^static unsigned addUnknownChunks(ucvector* out, unsigned char* data, size_t datasize) {$/;"	f	file:
+add_id	lodepng.h	/^  unsigned add_id;$/;"	m	struct:LodePNGEncoderSettings
+adler32	lodepng.c	/^static unsigned adler32(const unsigned char* data, unsigned len) {$/;"	f	file:
+advanceBits	lodepng.c	/^static void advanceBits(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+alloc_string	lodepng.c	/^static char* alloc_string(const char* in) {$/;"	f	file:
+alloc_string_sized	lodepng.c	/^static char* alloc_string_sized(const char* in, size_t insize) {$/;"	f	file:
+allocsize	lodepng.c	/^  size_t allocsize; \/*allocated size in bytes*\/$/;"	m	struct:uivector	file:
+allocsize	lodepng.c	/^  size_t allocsize; \/*allocated size*\/$/;"	m	struct:ucvector	file:
+allow_greyscale	lodepng.h	/^  unsigned allow_greyscale; \/*default 1. if 0, choose RGB or RGBA even if the image only has gray colors*\/$/;"	m	struct:LodePNGColorStats
+allow_palette	lodepng.h	/^  unsigned allow_palette; \/*default 1. if 0, disallow choosing palette colortype in auto_choose_color, and don't count numcolors*\/$/;"	m	struct:LodePNGColorStats
+alpha	lodepng.h	/^  unsigned alpha; \/*image is not opaque and alpha channel or alpha palette required*\/$/;"	m	struct:LodePNGColorStats
+auto_choose_color	lodepng.c	/^static unsigned auto_choose_color(LodePNGColorMode* mode_out,$/;"	f	file:
+auto_convert	lodepng.h	/^  unsigned auto_convert; \/*automatically choose output PNG color type. Default: true*\/$/;"	m	struct:LodePNGEncoderSettings
+background_b	lodepng.h	/^  unsigned background_b;       \/*blue component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+background_defined	lodepng.h	/^  unsigned background_defined; \/*is a suggested background color given?*\/$/;"	m	struct:LodePNGInfo
+background_g	lodepng.h	/^  unsigned background_g;       \/*green component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+background_r	lodepng.h	/^  unsigned background_r;       \/*red\/gray\/palette component of suggested background color*\/$/;"	m	struct:LodePNGInfo
+bitdepth	lodepng.h	/^  unsigned bitdepth;  \/*bits per sample, see PNG standard or documentation further in this header file*\/$/;"	m	struct:LodePNGColorMode
+bits	lodepng.h	/^  unsigned bits; \/*bits per channel (not for palette). 1,2 or 4 for grayscale only. 16 if 16-bit per channel required.*\/$/;"	m	struct:LodePNGColorStats
+bitsize	lodepng.c	/^  size_t bitsize; \/*size of data in bits, end of valid bp values, should be 8*size*\/$/;"	m	struct:__anon2	file:
+boundaryPM	lodepng.c	/^static void boundaryPM(BPMLists* lists, BPMNode* leaves, size_t numpresent, int c, int num) {$/;"	f	file:
+bp	lodepng.c	/^  size_t bp;$/;"	m	struct:__anon2	file:
+bp	lodepng.c	/^  unsigned char bp; \/*ok to overflow, indicates bit pos inside byte*\/$/;"	m	struct:__anon1	file:
+bpmnode_create	lodepng.c	/^static BPMNode* bpmnode_create(BPMLists* lists, int weight, unsigned index, BPMNode* tail) {$/;"	f	file:
+bpmnode_sort	lodepng.c	/^static void bpmnode_sort(BPMNode* leaves, size_t num) {$/;"	f	file:
+btype	lodepng.h	/^  unsigned btype; \/*the block type for LZ (0, 1, 2 or 3, see zlib standard). Should be 2 for proper compression.*\/$/;"	m	struct:LodePNGCompressSettings
+buffer	lodepng.c	/^  unsigned buffer; \/*buffer for reading bits. NOTE: 'unsigned' must support at least 32 bits*\/$/;"	m	struct:__anon2	file:
+chain	lodepng.c	/^  unsigned short* chain;$/;"	m	struct:Hash	file:
+chains0	lodepng.c	/^  BPMNode** chains0;$/;"	m	struct:BPMLists	file:
+chains1	lodepng.c	/^  BPMNode** chains1;$/;"	m	struct:BPMLists	file:
+chainz	lodepng.c	/^  unsigned short* chainz; \/*those with same amount of zeros*\/$/;"	m	struct:Hash	file:
+checkColorValidity	lodepng.c	/^static unsigned checkColorValidity(LodePNGColorType colortype, unsigned bd) {$/;"	f	file:
+children	lodepng.c	/^  ColorTree* children[16]; \/*up to 16 pointers to ColorTree of next level*\/$/;"	m	struct:ColorTree	file:
+chrm_blue_x	lodepng.h	/^  unsigned chrm_blue_x;  \/* Blue x times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_blue_y	lodepng.h	/^  unsigned chrm_blue_y;  \/* Blue y times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_defined	lodepng.h	/^  unsigned chrm_defined; \/* Whether a cHRM chunk is present (0 = not present, 1 = present). *\/$/;"	m	struct:LodePNGInfo
+chrm_green_x	lodepng.h	/^  unsigned chrm_green_x; \/* Green x times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_green_y	lodepng.h	/^  unsigned chrm_green_y; \/* Green y times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_red_x	lodepng.h	/^  unsigned chrm_red_x;   \/* Red x times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_red_y	lodepng.h	/^  unsigned chrm_red_y;   \/* Red y times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_white_x	lodepng.h	/^  unsigned chrm_white_x; \/* White Point x times 100000 *\/$/;"	m	struct:LodePNGInfo
+chrm_white_y	lodepng.h	/^  unsigned chrm_white_y; \/* White Point y times 100000 *\/$/;"	m	struct:LodePNGInfo
+codes	lodepng.c	/^  unsigned* codes; \/*the huffman codes (bit patterns representing the symbols)*\/$/;"	m	struct:HuffmanTree	file:
+color	lodepng.h	/^  LodePNGColorMode color;     \/*color type and bits, palette and transparency of the PNG file*\/$/;"	m	struct:LodePNGInfo
+color_convert	lodepng.h	/^  unsigned color_convert; \/*whether to convert the PNG to the color type you want. Default: yes*\/$/;"	m	struct:LodePNGDecoderSettings
+color_tree_add	lodepng.c	/^static unsigned color_tree_add(ColorTree* tree,$/;"	f	file:
+color_tree_cleanup	lodepng.c	/^static void color_tree_cleanup(ColorTree* tree) {$/;"	f	file:
+color_tree_get	lodepng.c	/^static int color_tree_get(ColorTree* tree, unsigned char r, unsigned char g, unsigned char b, unsigned char a) {$/;"	f	file:
+color_tree_has	lodepng.c	/^static int color_tree_has(ColorTree* tree, unsigned char r, unsigned char g, unsigned char b, unsigned char a) {$/;"	f	file:
+color_tree_init	lodepng.c	/^static void color_tree_init(ColorTree* tree) {$/;"	f	file:
+colored	lodepng.h	/^  unsigned colored; \/*not grayscale*\/$/;"	m	struct:LodePNGColorStats
+colortype	lodepng.h	/^  LodePNGColorType colortype; \/*color type, see PNG standard or documentation further in this header file*\/$/;"	m	struct:LodePNGColorMode
+compression_method	lodepng.h	/^  unsigned compression_method;\/*compression method of the original file. Always 0.*\/$/;"	m	struct:LodePNGInfo
+countZeros	lodepng.c	/^static unsigned countZeros(const unsigned char* data, size_t size, size_t pos) {$/;"	f	file:
+custom_context	lodepng.h	/^  const void* custom_context; \/*optional custom settings for custom functions*\/$/;"	m	struct:LodePNGCompressSettings
+custom_context	lodepng.h	/^  const void* custom_context; \/*optional custom settings for custom functions*\/$/;"	m	struct:LodePNGDecompressSettings
+custom_deflate	lodepng.h	/^  unsigned (*custom_deflate)(unsigned char**, size_t*,$/;"	m	struct:LodePNGCompressSettings
+custom_inflate	lodepng.h	/^  unsigned (*custom_inflate)(unsigned char**, size_t*,$/;"	m	struct:LodePNGDecompressSettings
+custom_zlib	lodepng.h	/^  unsigned (*custom_zlib)(unsigned char**, size_t*,$/;"	m	struct:LodePNGCompressSettings
+custom_zlib	lodepng.h	/^  unsigned (*custom_zlib)(unsigned char**, size_t*,$/;"	m	struct:LodePNGDecompressSettings
+data	lodepng.c	/^  const unsigned char* data;$/;"	m	struct:__anon2	file:
+data	lodepng.c	/^  ucvector* data;$/;"	m	struct:__anon1	file:
+data	lodepng.c	/^  unsigned char* data;$/;"	m	struct:ucvector	file:
+data	lodepng.c	/^  unsigned* data;$/;"	m	struct:uivector	file:
+day	lodepng.h	/^  unsigned day;     \/*1-31*\/$/;"	m	struct:LodePNGTime
+decodeGeneric	lodepng.c	/^static void decodeGeneric(unsigned char** out, unsigned* w, unsigned* h,$/;"	f	file:
+decodeOneStep	decode.c	/^void decodeOneStep(const char* filename) {$/;"	f
+decodeTwoSteps	decode.c	/^void decodeTwoSteps(const char* filename) {$/;"	f
+decodeWithState	decode.c	/^void decodeWithState(const char* filename) {$/;"	f
+decoder	lodepng.h	/^  LodePNGDecoderSettings decoder; \/*the decoding settings*\/$/;"	m	struct:LodePNGState
+deflate	lodepng.c	/^static unsigned deflate(unsigned char** out, size_t* outsize,$/;"	f	file:
+deflateDynamic	lodepng.c	/^static unsigned deflateDynamic(LodePNGBitWriter* writer, Hash* hash,$/;"	f	file:
+deflateFixed	lodepng.c	/^static unsigned deflateFixed(LodePNGBitWriter* writer, Hash* hash,$/;"	f	file:
+deflateNoCompression	lodepng.c	/^static unsigned deflateNoCompression(ucvector* out, const unsigned char* data, size_t datasize) {$/;"	f	file:
+encodeLZ77	lodepng.c	/^static unsigned encodeLZ77(uivector* out, Hash* hash,$/;"	f	file:
+encoder	lodepng.h	/^  LodePNGEncoderSettings encoder; \/*the encoding settings*\/$/;"	m	struct:LodePNGState
+ensureBits17	lodepng.c	/^static unsigned ensureBits17(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+ensureBits25	lodepng.c	/^static LODEPNG_INLINE unsigned ensureBits25(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+ensureBits32	lodepng.c	/^static LODEPNG_INLINE unsigned ensureBits32(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+ensureBits9	lodepng.c	/^static unsigned ensureBits9(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+error	lodepng.h	/^  unsigned error;$/;"	m	struct:LodePNGState
+filter	lodepng.c	/^static unsigned filter(unsigned char* out, const unsigned char* in, unsigned w, unsigned h,$/;"	f	file:
+filterScanline	lodepng.c	/^static void filterScanline(unsigned char* out, const unsigned char* scanline, const unsigned char* prevline,$/;"	f	file:
+filter_method	lodepng.h	/^  unsigned filter_method;     \/*filter method of the original file*\/$/;"	m	struct:LodePNGInfo
+filter_palette_zero	lodepng.h	/^  unsigned filter_palette_zero;$/;"	m	struct:LodePNGEncoderSettings
+filter_strategy	lodepng.h	/^  LodePNGFilterStrategy filter_strategy;$/;"	m	struct:LodePNGEncoderSettings
+force_palette	lodepng.h	/^  unsigned force_palette;$/;"	m	struct:LodePNGEncoderSettings
+freelist	lodepng.c	/^  BPMNode** freelist;$/;"	m	struct:BPMLists	file:
+gama_defined	lodepng.h	/^  unsigned gama_defined; \/* Whether a gAMA chunk is present (0 = not present, 1 = present). *\/$/;"	m	struct:LodePNGInfo
+gama_gamma	lodepng.h	/^  unsigned gama_gamma;   \/* Gamma exponent times 100000 *\/$/;"	m	struct:LodePNGInfo
+generateFixedDistanceTree	lodepng.c	/^static unsigned generateFixedDistanceTree(HuffmanTree* tree) {$/;"	f	file:
+generateFixedLitLenTree	lodepng.c	/^static unsigned generateFixedLitLenTree(HuffmanTree* tree) {$/;"	f	file:
+getHash	lodepng.c	/^static unsigned getHash(const unsigned char* data, size_t size, size_t pos) {$/;"	f	file:
+getNumColorChannels	lodepng.c	/^static unsigned getNumColorChannels(LodePNGColorType colortype) {$/;"	f	file:
+getPixelColorRGBA16	lodepng.c	/^static void getPixelColorRGBA16(unsigned short* r, unsigned short* g, unsigned short* b, unsigned short* a,$/;"	f	file:
+getPixelColorRGBA8	lodepng.c	/^static void getPixelColorRGBA8(unsigned char* r, unsigned char* g,$/;"	f	file:
+getPixelColorsRGB8	lodepng.c	/^static void getPixelColorsRGB8(unsigned char* LODEPNG_RESTRICT buffer, size_t numpixels,$/;"	f	file:
+getPixelColorsRGBA8	lodepng.c	/^static void getPixelColorsRGBA8(unsigned char* LODEPNG_RESTRICT buffer, size_t numpixels,$/;"	f	file:
+getTreeInflateDynamic	lodepng.c	/^static unsigned getTreeInflateDynamic(HuffmanTree* tree_ll, HuffmanTree* tree_d,$/;"	f	file:
+getTreeInflateFixed	lodepng.c	/^static unsigned getTreeInflateFixed(HuffmanTree* tree_ll, HuffmanTree* tree_d) {$/;"	f	file:
+getValueRequiredBits	lodepng.c	/^static unsigned getValueRequiredBits(unsigned char value) {$/;"	f	file:
+hash_cleanup	lodepng.c	/^static void hash_cleanup(Hash* hash) {$/;"	f	file:
+hash_init	lodepng.c	/^static unsigned hash_init(Hash* hash, unsigned windowsize) {$/;"	f	file:
+head	lodepng.c	/^  int* head; \/*hash value to head circular pos - can be outdated if went around window*\/$/;"	m	struct:Hash	file:
+headz	lodepng.c	/^  int* headz; \/*similar to head, but for chainz*\/$/;"	m	struct:Hash	file:
+hour	lodepng.h	/^  unsigned hour;    \/*0-23*\/$/;"	m	struct:LodePNGTime
+huffmanDecodeSymbol	lodepng.c	/^static unsigned huffmanDecodeSymbol(LodePNGBitReader* reader, const HuffmanTree* codetree) {$/;"	f	file:
+iccp_defined	lodepng.h	/^  unsigned iccp_defined;      \/* Whether an iCCP chunk is present (0 = not present, 1 = present). *\/$/;"	m	struct:LodePNGInfo
+iccp_name	lodepng.h	/^  char* iccp_name;            \/* Null terminated string with profile name, 1-79 bytes *\/$/;"	m	struct:LodePNGInfo
+iccp_profile	lodepng.h	/^  unsigned char* iccp_profile;$/;"	m	struct:LodePNGInfo
+iccp_profile_size	lodepng.h	/^  unsigned iccp_profile_size; \/* The size of iccp_profile in bytes *\/$/;"	m	struct:LodePNGInfo
+ignore_adler32	lodepng.h	/^  unsigned ignore_adler32; \/*if 1, continue and don't give an error message if the Adler32 checksum is corrupted*\/$/;"	m	struct:LodePNGDecompressSettings
+ignore_crc	lodepng.h	/^  unsigned ignore_crc; \/*ignore CRC checksums*\/$/;"	m	struct:LodePNGDecoderSettings
+ignore_critical	lodepng.h	/^  unsigned ignore_critical; \/*ignore unknown critical chunks*\/$/;"	m	struct:LodePNGDecoderSettings
+ignore_end	lodepng.h	/^  unsigned ignore_end; \/*ignore issues at end of file if possible (missing IEND chunk, too large chunk, ...)*\/$/;"	m	struct:LodePNGDecoderSettings
+ignore_nlen	lodepng.h	/^  unsigned ignore_nlen; \/*ignore complement of len checksum in uncompressed blocks*\/$/;"	m	struct:LodePNGDecompressSettings
+ilog2	lodepng.c	/^static size_t ilog2(size_t i) {$/;"	f	file:
+ilog2i	lodepng.c	/^static size_t ilog2i(size_t i) {$/;"	f	file:
+in_use	lodepng.c	/^  int in_use;$/;"	m	struct:BPMNode	file:
+index	lodepng.c	/^  int index; \/*the payload. Only has a meaningful value if this is in the last level*\/$/;"	m	struct:ColorTree	file:
+index	lodepng.c	/^  unsigned index; \/*index of this leaf node (called "count" in the paper)*\/$/;"	m	struct:BPMNode	file:
+inflateHuffmanBlock	lodepng.c	/^static unsigned inflateHuffmanBlock(ucvector* out, LodePNGBitReader* reader,$/;"	f	file:
+inflateNoCompression	lodepng.c	/^static unsigned inflateNoCompression(ucvector* out, LodePNGBitReader* reader,$/;"	f	file:
+inflatev	lodepng.c	/^static unsigned inflatev(ucvector* out, const unsigned char* in, size_t insize,$/;"	f	file:
+info_png	lodepng.h	/^  LodePNGInfo info_png; \/*info of the PNG image obtained after decoding*\/$/;"	m	struct:LodePNGState
+info_raw	lodepng.h	/^  LodePNGColorMode info_raw; \/*specifies the format in which you would like to get the raw pixel buffer*\/$/;"	m	struct:LodePNGState
+interlace_method	lodepng.h	/^  unsigned interlace_method;  \/*interlace method of the original file: 0=none, 1=Adam7*\/$/;"	m	struct:LodePNGInfo
+isGrayICCProfile	lodepng.c	/^static unsigned isGrayICCProfile(const unsigned char* profile, unsigned size) {$/;"	f	file:
+isRGBICCProfile	lodepng.c	/^static unsigned isRGBICCProfile(const unsigned char* profile, unsigned size) {$/;"	f	file:
+itext_keys	lodepng.h	/^  char** itext_keys; \/*the English keyword of the text chunk (e.g. "Comment")*\/$/;"	m	struct:LodePNGInfo
+itext_langtags	lodepng.h	/^  char** itext_langtags; \/*language tag for this text's language, ISO\/IEC 646 string, e.g. ISO 639 language tag*\/$/;"	m	struct:LodePNGInfo
+itext_num	lodepng.h	/^  size_t itext_num; \/*the amount of international texts in this PNG*\/$/;"	m	struct:LodePNGInfo
+itext_strings	lodepng.h	/^  char** itext_strings; \/*the actual international text - UTF-8 string*\/$/;"	m	struct:LodePNGInfo
+itext_transkeys	lodepng.h	/^  char** itext_transkeys; \/*keyword translated to the international language - UTF-8 string*\/$/;"	m	struct:LodePNGInfo
+key	lodepng.h	/^  unsigned key; \/*image is not opaque and color key is possible instead of full alpha*\/$/;"	m	struct:LodePNGColorStats
+key_b	lodepng.h	/^  unsigned key_b;       \/*blue component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_b	lodepng.h	/^  unsigned short key_b;$/;"	m	struct:LodePNGColorStats
+key_defined	lodepng.h	/^  unsigned key_defined; \/*is a transparent color key given? 0 = false, 1 = true*\/$/;"	m	struct:LodePNGColorMode
+key_g	lodepng.h	/^  unsigned key_g;       \/*green component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_g	lodepng.h	/^  unsigned short key_g;$/;"	m	struct:LodePNGColorStats
+key_r	lodepng.h	/^  unsigned key_r;       \/*red\/grayscale component of color key*\/$/;"	m	struct:LodePNGColorMode
+key_r	lodepng.h	/^  unsigned short key_r; \/*key values, always as 16-bit, in 8-bit case the byte is duplicated, e.g. 65535 means 255*\/$/;"	m	struct:LodePNGColorStats
+lazymatching	lodepng.h	/^  unsigned lazymatching; \/*use lazy matching: better compression but a bit slower. Default: true*\/$/;"	m	struct:LodePNGCompressSettings
+lengths	lodepng.c	/^  unsigned* lengths; \/*the lengths of the huffman codes*\/$/;"	m	struct:HuffmanTree	file:
+listsize	lodepng.c	/^  unsigned listsize;$/;"	m	struct:BPMLists	file:
+lode_png_test_bitreader	lodepng.c	/^unsigned lode_png_test_bitreader(const unsigned char* data, size_t size,$/;"	f
+lodepng	lodepng.h	/^namespace lodepng {$/;"	n
+lodepng_add_itext	lodepng.c	/^unsigned lodepng_add_itext(LodePNGInfo* info, const char* key, const char* langtag,$/;"	f
+lodepng_add_itext_sized	lodepng.c	/^static unsigned lodepng_add_itext_sized(LodePNGInfo* info, const char* key, const char* langtag,$/;"	f	file:
+lodepng_add_text	lodepng.c	/^unsigned lodepng_add_text(LodePNGInfo* info, const char* key, const char* str) {$/;"	f
+lodepng_add_text_sized	lodepng.c	/^static unsigned lodepng_add_text_sized(LodePNGInfo* info, const char* key, const char* str, size_t size) {$/;"	f	file:
+lodepng_addofl	lodepng.c	/^static int lodepng_addofl(size_t a, size_t b, size_t* result) {$/;"	f	file:
+lodepng_assign_icc	lodepng.c	/^static unsigned lodepng_assign_icc(LodePNGInfo* info, const char* name, const unsigned char* profile, unsigned profile_size) {$/;"	f	file:
+lodepng_buffer_file	lodepng.c	/^static unsigned lodepng_buffer_file(unsigned char* out, size_t size, const char* filename) {$/;"	f	file:
+lodepng_can_have_alpha	lodepng.c	/^unsigned lodepng_can_have_alpha(const LodePNGColorMode* info) {$/;"	f
+lodepng_chunk_ancillary	lodepng.c	/^unsigned char lodepng_chunk_ancillary(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_append	lodepng.c	/^unsigned lodepng_chunk_append(unsigned char** out, size_t* outsize, const unsigned char* chunk) {$/;"	f
+lodepng_chunk_check_crc	lodepng.c	/^unsigned lodepng_chunk_check_crc(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_create	lodepng.c	/^unsigned lodepng_chunk_create(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_chunk_createv	lodepng.c	/^static unsigned lodepng_chunk_createv(ucvector* out,$/;"	f	file:
+lodepng_chunk_data	lodepng.c	/^unsigned char* lodepng_chunk_data(unsigned char* chunk) {$/;"	f
+lodepng_chunk_data_const	lodepng.c	/^const unsigned char* lodepng_chunk_data_const(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_find	lodepng.c	/^unsigned char* lodepng_chunk_find(unsigned char* chunk, unsigned char* end, const char type[5]) {$/;"	f
+lodepng_chunk_find_const	lodepng.c	/^const unsigned char* lodepng_chunk_find_const(const unsigned char* chunk, const unsigned char* end, const char type[5]) {$/;"	f
+lodepng_chunk_generate_crc	lodepng.c	/^void lodepng_chunk_generate_crc(unsigned char* chunk) {$/;"	f
+lodepng_chunk_init	lodepng.c	/^static unsigned lodepng_chunk_init(unsigned char** chunk,$/;"	f	file:
+lodepng_chunk_length	lodepng.c	/^unsigned lodepng_chunk_length(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_next	lodepng.c	/^unsigned char* lodepng_chunk_next(unsigned char* chunk, unsigned char* end) {$/;"	f
+lodepng_chunk_next_const	lodepng.c	/^const unsigned char* lodepng_chunk_next_const(const unsigned char* chunk, const unsigned char* end) {$/;"	f
+lodepng_chunk_private	lodepng.c	/^unsigned char lodepng_chunk_private(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_safetocopy	lodepng.c	/^unsigned char lodepng_chunk_safetocopy(const unsigned char* chunk) {$/;"	f
+lodepng_chunk_type	lodepng.c	/^void lodepng_chunk_type(char type[5], const unsigned char* chunk) {$/;"	f
+lodepng_chunk_type_equals	lodepng.c	/^unsigned char lodepng_chunk_type_equals(const unsigned char* chunk, const char* type) {$/;"	f
+lodepng_clear_icc	lodepng.c	/^void lodepng_clear_icc(LodePNGInfo* info) {$/;"	f
+lodepng_clear_itext	lodepng.c	/^void lodepng_clear_itext(LodePNGInfo* info) {$/;"	f
+lodepng_clear_text	lodepng.c	/^void lodepng_clear_text(LodePNGInfo* info) {$/;"	f
+lodepng_color_mode_alloc_palette	lodepng.c	/^static void lodepng_color_mode_alloc_palette(LodePNGColorMode* info) {$/;"	f	file:
+lodepng_color_mode_cleanup	lodepng.c	/^void lodepng_color_mode_cleanup(LodePNGColorMode* info) {$/;"	f
+lodepng_color_mode_copy	lodepng.c	/^unsigned lodepng_color_mode_copy(LodePNGColorMode* dest, const LodePNGColorMode* source) {$/;"	f
+lodepng_color_mode_equal	lodepng.c	/^static int lodepng_color_mode_equal(const LodePNGColorMode* a, const LodePNGColorMode* b) {$/;"	f	file:
+lodepng_color_mode_init	lodepng.c	/^void lodepng_color_mode_init(LodePNGColorMode* info) {$/;"	f
+lodepng_color_mode_make	lodepng.c	/^LodePNGColorMode lodepng_color_mode_make(LodePNGColorType colortype, unsigned bitdepth) {$/;"	f
+lodepng_color_stats_add	lodepng.c	/^static unsigned lodepng_color_stats_add(LodePNGColorStats* stats,$/;"	f	file:
+lodepng_color_stats_init	lodepng.c	/^void lodepng_color_stats_init(LodePNGColorStats* stats) {$/;"	f
+lodepng_compress_settings_init	lodepng.c	/^void lodepng_compress_settings_init(LodePNGCompressSettings* settings) {$/;"	f
+lodepng_compute_color_stats	lodepng.c	/^unsigned lodepng_compute_color_stats(LodePNGColorStats* stats,$/;"	f
+lodepng_convert	lodepng.c	/^unsigned lodepng_convert(unsigned char* out, const unsigned char* in,$/;"	f
+lodepng_convert_rgb	lodepng.c	/^unsigned lodepng_convert_rgb($/;"	f
+lodepng_crc32	lodepng.c	/^unsigned lodepng_crc32(const unsigned char* data, size_t length) {$/;"	f
+lodepng_crc32_table	lodepng.c	/^static unsigned lodepng_crc32_table[256] = {$/;"	v	file:
+lodepng_decode	lodepng.c	/^unsigned lodepng_decode(unsigned char** out, unsigned* w, unsigned* h,$/;"	f
+lodepng_decode24	lodepng.c	/^unsigned lodepng_decode24(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in, size_t insize) {$/;"	f
+lodepng_decode24_file	lodepng.c	/^unsigned lodepng_decode24_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename) {$/;"	f
+lodepng_decode32	lodepng.c	/^unsigned lodepng_decode32(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in, size_t insize) {$/;"	f
+lodepng_decode32_file	lodepng.c	/^unsigned lodepng_decode32_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename) {$/;"	f
+lodepng_decode_file	lodepng.c	/^unsigned lodepng_decode_file(unsigned char** out, unsigned* w, unsigned* h, const char* filename,$/;"	f
+lodepng_decode_memory	lodepng.c	/^unsigned lodepng_decode_memory(unsigned char** out, unsigned* w, unsigned* h, const unsigned char* in,$/;"	f
+lodepng_decoder_settings_init	lodepng.c	/^void lodepng_decoder_settings_init(LodePNGDecoderSettings* settings) {$/;"	f
+lodepng_decompress_settings_init	lodepng.c	/^void lodepng_decompress_settings_init(LodePNGDecompressSettings* settings) {$/;"	f
+lodepng_default_compress_settings	lodepng.c	/^const LodePNGCompressSettings lodepng_default_compress_settings = {2, 1, DEFAULT_WINDOWSIZE, 3, 128, 1, 0, 0, 0};$/;"	v
+lodepng_default_decompress_settings	lodepng.c	/^const LodePNGDecompressSettings lodepng_default_decompress_settings = {0, 0, 0, 0, 0, 0};$/;"	v
+lodepng_deflate	lodepng.c	/^unsigned lodepng_deflate(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_deflatev	lodepng.c	/^static unsigned lodepng_deflatev(ucvector* out, const unsigned char* in, size_t insize,$/;"	f	file:
+lodepng_encode	lodepng.c	/^unsigned lodepng_encode(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_encode24	lodepng.c	/^unsigned lodepng_encode24(unsigned char** out, size_t* outsize, const unsigned char* image, unsigned w, unsigned h) {$/;"	f
+lodepng_encode24_file	lodepng.c	/^unsigned lodepng_encode24_file(const char* filename, const unsigned char* image, unsigned w, unsigned h) {$/;"	f
+lodepng_encode32	lodepng.c	/^unsigned lodepng_encode32(unsigned char** out, size_t* outsize, const unsigned char* image, unsigned w, unsigned h) {$/;"	f
+lodepng_encode32_file	lodepng.c	/^unsigned lodepng_encode32_file(const char* filename, const unsigned char* image, unsigned w, unsigned h) {$/;"	f
+lodepng_encode_file	lodepng.c	/^unsigned lodepng_encode_file(const char* filename, const unsigned char* image, unsigned w, unsigned h,$/;"	f
+lodepng_encode_memory	lodepng.c	/^unsigned lodepng_encode_memory(unsigned char** out, size_t* outsize, const unsigned char* image,$/;"	f
+lodepng_encoder_settings_init	lodepng.c	/^void lodepng_encoder_settings_init(LodePNGEncoderSettings* settings) {$/;"	f
+lodepng_error_text	lodepng.c	/^const char* lodepng_error_text(unsigned code) {$/;"	f
+lodepng_filesize	lodepng.c	/^static long lodepng_filesize(const char* filename) {$/;"	f	file:
+lodepng_free	lodepng.c	/^static void lodepng_free(void* ptr) {$/;"	f	file:
+lodepng_get_bpp	lodepng.c	/^unsigned lodepng_get_bpp(const LodePNGColorMode* info) {$/;"	f
+lodepng_get_bpp_lct	lodepng.c	/^static unsigned lodepng_get_bpp_lct(LodePNGColorType colortype, unsigned bitdepth) {$/;"	f	file:
+lodepng_get_channels	lodepng.c	/^unsigned lodepng_get_channels(const LodePNGColorMode* info) {$/;"	f
+lodepng_get_raw_size	lodepng.c	/^size_t lodepng_get_raw_size(unsigned w, unsigned h, const LodePNGColorMode* color) {$/;"	f
+lodepng_get_raw_size_idat	lodepng.c	/^static size_t lodepng_get_raw_size_idat(unsigned w, unsigned h, unsigned bpp) {$/;"	f	file:
+lodepng_get_raw_size_lct	lodepng.c	/^static size_t lodepng_get_raw_size_lct(unsigned w, unsigned h, LodePNGColorType colortype, unsigned bitdepth) {$/;"	f	file:
+lodepng_gtofl	lodepng.c	/^static int lodepng_gtofl(size_t a, size_t b, size_t c) {$/;"	f	file:
+lodepng_has_palette_alpha	lodepng.c	/^unsigned lodepng_has_palette_alpha(const LodePNGColorMode* info) {$/;"	f
+lodepng_huffman_code_lengths	lodepng.c	/^unsigned lodepng_huffman_code_lengths(unsigned* lengths, const unsigned* frequencies,$/;"	f
+lodepng_inflate	lodepng.c	/^unsigned lodepng_inflate(unsigned char** out, size_t* outsize,$/;"	f
+lodepng_inflatev	lodepng.c	/^static unsigned lodepng_inflatev(ucvector* out,$/;"	f	file:
+lodepng_info_cleanup	lodepng.c	/^void lodepng_info_cleanup(LodePNGInfo* info) {$/;"	f
+lodepng_info_copy	lodepng.c	/^unsigned lodepng_info_copy(LodePNGInfo* dest, const LodePNGInfo* source) {$/;"	f
+lodepng_info_init	lodepng.c	/^void lodepng_info_init(LodePNGInfo* info) {$/;"	f
+lodepng_inspect	lodepng.c	/^unsigned lodepng_inspect(unsigned* w, unsigned* h, LodePNGState* state,$/;"	f
+lodepng_inspect_chunk	lodepng.c	/^unsigned lodepng_inspect_chunk(LodePNGState* state, size_t pos,$/;"	f
+lodepng_is_alpha_type	lodepng.c	/^unsigned lodepng_is_alpha_type(const LodePNGColorMode* info) {$/;"	f
+lodepng_is_greyscale_type	lodepng.c	/^unsigned lodepng_is_greyscale_type(const LodePNGColorMode* info) {$/;"	f
+lodepng_is_palette_type	lodepng.c	/^unsigned lodepng_is_palette_type(const LodePNGColorMode* info) {$/;"	f
+lodepng_load_file	lodepng.c	/^unsigned lodepng_load_file(unsigned char** out, size_t* outsize, const char* filename) {$/;"	f
+lodepng_malloc	lodepng.c	/^static void* lodepng_malloc(size_t size) {$/;"	f	file:
+lodepng_memcpy	lodepng.c	/^static void lodepng_memcpy(void* LODEPNG_RESTRICT dst,$/;"	f	file:
+lodepng_memset	lodepng.c	/^static void lodepng_memset(void* LODEPNG_RESTRICT dst,$/;"	f	file:
+lodepng_mulofl	lodepng.c	/^static int lodepng_mulofl(size_t a, size_t b, size_t* result) {$/;"	f	file:
+lodepng_palette_add	lodepng.c	/^unsigned lodepng_palette_add(LodePNGColorMode* info,$/;"	f
+lodepng_palette_clear	lodepng.c	/^void lodepng_palette_clear(LodePNGColorMode* info) {$/;"	f
+lodepng_pixel_overflow	lodepng.c	/^static int lodepng_pixel_overflow(unsigned w, unsigned h,$/;"	f	file:
+lodepng_read32bitInt	lodepng.c	/^static unsigned lodepng_read32bitInt(const unsigned char* buffer) {$/;"	f	file:
+lodepng_realloc	lodepng.c	/^static void* lodepng_realloc(void* ptr, size_t new_size) {$/;"	f	file:
+lodepng_save_file	lodepng.c	/^unsigned lodepng_save_file(const unsigned char* buffer, size_t buffersize, const char* filename) {$/;"	f
+lodepng_set32bitInt	lodepng.c	/^static void lodepng_set32bitInt(unsigned char* buffer, unsigned value) {$/;"	f	file:
+lodepng_set_icc	lodepng.c	/^unsigned lodepng_set_icc(LodePNGInfo* info, const char* name, const unsigned char* profile, unsigned profile_size) {$/;"	f
+lodepng_state_cleanup	lodepng.c	/^void lodepng_state_cleanup(LodePNGState* state) {$/;"	f
+lodepng_state_copy	lodepng.c	/^void lodepng_state_copy(LodePNGState* dest, const LodePNGState* source) {$/;"	f
+lodepng_state_init	lodepng.c	/^void lodepng_state_init(LodePNGState* state) {$/;"	f
+lodepng_strlen	lodepng.c	/^static size_t lodepng_strlen(const char* a) {$/;"	f	file:
+lodepng_zlib_compress	lodepng.c	/^unsigned lodepng_zlib_compress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f
+lodepng_zlib_decompress	lodepng.c	/^unsigned lodepng_zlib_decompress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f
+lodepng_zlib_decompressv	lodepng.c	/^static unsigned lodepng_zlib_decompressv(ucvector* out,$/;"	f	file:
+main	decode.c	/^int main(int argc, char *argv[]) {$/;"	f
+max_icc_size	lodepng.h	/^  size_t max_icc_size;$/;"	m	struct:LodePNGDecoderSettings
+max_output_size	lodepng.h	/^  size_t max_output_size;$/;"	m	struct:LodePNGDecompressSettings
+max_text_size	lodepng.h	/^  size_t max_text_size;$/;"	m	struct:LodePNGDecoderSettings
+maxbitlen	lodepng.c	/^  unsigned maxbitlen; \/*maximum number of bits a single code can get*\/$/;"	m	struct:HuffmanTree	file:
+memory	lodepng.c	/^  BPMNode* memory;$/;"	m	struct:BPMLists	file:
+memsize	lodepng.c	/^  unsigned memsize;$/;"	m	struct:BPMLists	file:
+minmatch	lodepng.h	/^  unsigned minmatch; \/*minimum lz77 length. 3 is normally best, 6 can be better for some PNGs. Default: 0*\/$/;"	m	struct:LodePNGCompressSettings
+minute	lodepng.h	/^  unsigned minute;  \/*0-59*\/$/;"	m	struct:LodePNGTime
+month	lodepng.h	/^  unsigned month;   \/*1-12*\/$/;"	m	struct:LodePNGTime
+nextfree	lodepng.c	/^  unsigned nextfree;$/;"	m	struct:BPMLists	file:
+nicematch	lodepng.h	/^  unsigned nicematch; \/*stop searching if >= this length found. Set to 258 for best compression. Default: 128*\/$/;"	m	struct:LodePNGCompressSettings
+numcodes	lodepng.c	/^  unsigned numcodes; \/*number of symbols in the alphabet = number of codes*\/$/;"	m	struct:HuffmanTree	file:
+numcolors	lodepng.h	/^  unsigned numcolors; \/*amount of colors, up to 257. Not valid if bits == 16 or allow_palette is disabled.*\/$/;"	m	struct:LodePNGColorStats
+numfree	lodepng.c	/^  unsigned numfree;$/;"	m	struct:BPMLists	file:
+numpixels	lodepng.h	/^  size_t numpixels;$/;"	m	struct:LodePNGColorStats
+paethPredictor	lodepng.c	/^static unsigned char paethPredictor(short a, short b, short c) {$/;"	f	file:
+palette	lodepng.h	/^  unsigned char palette[1024]; \/*Remembers up to the first 256 RGBA colors, in no particular order, only valid when numcolors is valid*\/$/;"	m	struct:LodePNGColorStats
+palette	lodepng.h	/^  unsigned char* palette; \/*palette in RGBARGBA... order. Must be either 0, or when allocated must have 1024 bytes*\/$/;"	m	struct:LodePNGColorMode
+palettesize	lodepng.h	/^  size_t palettesize; \/*palette size in number of colors (amount of used bytes is 4 * palettesize)*\/$/;"	m	struct:LodePNGColorMode
+peekBits	lodepng.c	/^static unsigned peekBits(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+phys_defined	lodepng.h	/^  unsigned phys_defined; \/*if 0, there is no pHYs chunk and the values below are undefined, if 1 else there is one*\/$/;"	m	struct:LodePNGInfo
+phys_unit	lodepng.h	/^  unsigned phys_unit; \/*may be 0 (unknown unit) or 1 (metre)*\/$/;"	m	struct:LodePNGInfo
+phys_x	lodepng.h	/^  unsigned phys_x; \/*pixels per unit in x direction*\/$/;"	m	struct:LodePNGInfo
+phys_y	lodepng.h	/^  unsigned phys_y; \/*pixels per unit in y direction*\/$/;"	m	struct:LodePNGInfo
+postProcessScanlines	lodepng.c	/^static unsigned postProcessScanlines(unsigned char* out, unsigned char* in,$/;"	f	file:
+preProcessScanlines	lodepng.c	/^static unsigned preProcessScanlines(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f	file:
+predefined_filters	lodepng.h	/^  const unsigned char* predefined_filters;$/;"	m	struct:LodePNGEncoderSettings
+readBitFromReversedStream	lodepng.c	/^static unsigned char readBitFromReversedStream(size_t* bitpointer, const unsigned char* bitstream) {$/;"	f	file:
+readBits	lodepng.c	/^static unsigned readBits(LodePNGBitReader* reader, size_t nbits) {$/;"	f	file:
+readBitsFromReversedStream	lodepng.c	/^static unsigned readBitsFromReversedStream(size_t* bitpointer, const unsigned char* bitstream, size_t nbits) {$/;"	f	file:
+readChunk_PLTE	lodepng.c	/^static unsigned readChunk_PLTE(LodePNGColorMode* color, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_bKGD	lodepng.c	/^static unsigned readChunk_bKGD(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_cHRM	lodepng.c	/^static unsigned readChunk_cHRM(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_gAMA	lodepng.c	/^static unsigned readChunk_gAMA(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_iCCP	lodepng.c	/^static unsigned readChunk_iCCP(LodePNGInfo* info, const LodePNGDecoderSettings* decoder,$/;"	f	file:
+readChunk_iTXt	lodepng.c	/^static unsigned readChunk_iTXt(LodePNGInfo* info, const LodePNGDecoderSettings* decoder,$/;"	f	file:
+readChunk_pHYs	lodepng.c	/^static unsigned readChunk_pHYs(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_sRGB	lodepng.c	/^static unsigned readChunk_sRGB(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_tEXt	lodepng.c	/^static unsigned readChunk_tEXt(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_tIME	lodepng.c	/^static unsigned readChunk_tIME(LodePNGInfo* info, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_tRNS	lodepng.c	/^static unsigned readChunk_tRNS(LodePNGColorMode* color, const unsigned char* data, size_t chunkLength) {$/;"	f	file:
+readChunk_zTXt	lodepng.c	/^static unsigned readChunk_zTXt(LodePNGInfo* info, const LodePNGDecoderSettings* decoder,$/;"	f	file:
+read_text_chunks	lodepng.h	/^  unsigned read_text_chunks; \/*if false but remember_unknown_chunks is true, they're stored in the unknown chunks*\/$/;"	m	struct:LodePNGDecoderSettings
+remember_unknown_chunks	lodepng.h	/^  unsigned remember_unknown_chunks;$/;"	m	struct:LodePNGDecoderSettings
+removePaddingBits	lodepng.c	/^static void removePaddingBits(unsigned char* out, const unsigned char* in,$/;"	f	file:
+reverseBits	lodepng.c	/^static unsigned reverseBits(unsigned bits, unsigned num) {$/;"	f	file:
+rgba16ToPixel	lodepng.c	/^static void rgba16ToPixel(unsigned char* out, size_t i,$/;"	f	file:
+rgba8ToPixel	lodepng.c	/^static unsigned rgba8ToPixel(unsigned char* out, size_t i,$/;"	f	file:
+searchCodeIndex	lodepng.c	/^static size_t searchCodeIndex(const unsigned* array, size_t array_size, size_t value) {$/;"	f	file:
+second	lodepng.h	/^  unsigned second;  \/*0-60 (to allow for leap seconds)*\/$/;"	m	struct:LodePNGTime
+setBitOfReversedStream	lodepng.c	/^static void setBitOfReversedStream(size_t* bitpointer, unsigned char* bitstream, unsigned char bit) {$/;"	f	file:
+size	lodepng.c	/^  size_t size; \/*size in number of unsigned longs*\/$/;"	m	struct:uivector	file:
+size	lodepng.c	/^  size_t size; \/*size of data in bytes*\/$/;"	m	struct:__anon2	file:
+size	lodepng.c	/^  size_t size; \/*used size*\/$/;"	m	struct:ucvector	file:
+srgb_defined	lodepng.h	/^  unsigned srgb_defined; \/* Whether an sRGB chunk is present (0 = not present, 1 = present). *\/$/;"	m	struct:LodePNGInfo
+srgb_intent	lodepng.h	/^  unsigned srgb_intent;  \/* Rendering intent: 0=perceptual, 1=rel. colorimetric, 2=saturation, 3=abs. colorimetric *\/$/;"	m	struct:LodePNGInfo
+string_cleanup	lodepng.c	/^static void string_cleanup(char** out) {$/;"	f	file:
+table_len	lodepng.c	/^  unsigned char* table_len; \/*length of symbol from lookup table, or max length if secondary lookup needed*\/$/;"	m	struct:HuffmanTree	file:
+table_value	lodepng.c	/^  unsigned short* table_value; \/*value of symbol from lookup table, or pointer to secondary table if needed*\/$/;"	m	struct:HuffmanTree	file:
+tail	lodepng.c	/^  struct BPMNode* tail; \/*the next nodes in this chain (null if last)*\/$/;"	m	struct:BPMNode	typeref:struct:BPMNode::BPMNode	file:
+text_compression	lodepng.h	/^  unsigned text_compression;$/;"	m	struct:LodePNGEncoderSettings
+text_keys	lodepng.h	/^  char** text_keys; \/*the keyword of a text chunk (e.g. "Comment")*\/$/;"	m	struct:LodePNGInfo
+text_num	lodepng.h	/^  size_t text_num; \/*the amount of texts in these char** buffers (there may be more texts in itext)*\/$/;"	m	struct:LodePNGInfo
+text_strings	lodepng.h	/^  char** text_strings; \/*the actual text*\/$/;"	m	struct:LodePNGInfo
+time	lodepng.h	/^  LodePNGTime time;$/;"	m	struct:LodePNGInfo
+time_defined	lodepng.h	/^  unsigned time_defined; \/*set to 1 to make the encoder generate a tIME chunk*\/$/;"	m	struct:LodePNGInfo
+ucvector	lodepng.c	/^typedef struct ucvector {$/;"	s	file:
+ucvector	lodepng.c	/^} ucvector;$/;"	t	typeref:struct:ucvector	file:
+ucvector_init	lodepng.c	/^static ucvector ucvector_init(unsigned char* buffer, size_t size) {$/;"	f	file:
+ucvector_resize	lodepng.c	/^static unsigned ucvector_resize(ucvector* p, size_t size) {$/;"	f	file:
+uivector	lodepng.c	/^typedef struct uivector {$/;"	s	file:
+uivector	lodepng.c	/^} uivector;$/;"	t	typeref:struct:uivector	file:
+uivector_cleanup	lodepng.c	/^static void uivector_cleanup(void* p) {$/;"	f	file:
+uivector_init	lodepng.c	/^static void uivector_init(uivector* p) {$/;"	f	file:
+uivector_push_back	lodepng.c	/^static unsigned uivector_push_back(uivector* p, unsigned c) {$/;"	f	file:
+uivector_resize	lodepng.c	/^static unsigned uivector_resize(uivector* p, size_t size) {$/;"	f	file:
+unfilter	lodepng.c	/^static unsigned unfilter(unsigned char* out, const unsigned char* in, unsigned w, unsigned h, unsigned bpp) {$/;"	f	file:
+unfilterScanline	lodepng.c	/^static unsigned unfilterScanline(unsigned char* recon, const unsigned char* scanline, const unsigned char* precon,$/;"	f	file:
+unknown_chunks_data	lodepng.h	/^  unsigned char* unknown_chunks_data[3];$/;"	m	struct:LodePNGInfo
+unknown_chunks_size	lodepng.h	/^  size_t unknown_chunks_size[3]; \/*size in bytes of the unknown chunks, given for protection*\/$/;"	m	struct:LodePNGInfo
+updateHashChain	lodepng.c	/^static void updateHashChain(Hash* hash, size_t wpos, unsigned hashval, unsigned short numzeros) {$/;"	f	file:
+update_adler32	lodepng.c	/^static unsigned update_adler32(unsigned adler, const unsigned char* data, unsigned len) {$/;"	f	file:
+use_lz77	lodepng.h	/^  unsigned use_lz77; \/*whether or not to use LZ77. Should be 1 for proper compression.*\/$/;"	m	struct:LodePNGCompressSettings
+val	lodepng.c	/^  int* val; \/*circular pos to hash value*\/$/;"	m	struct:Hash	file:
+weight	lodepng.c	/^  int weight; \/*the sum of all weights in this chain*\/$/;"	m	struct:BPMNode	file:
+windowsize	lodepng.h	/^  unsigned windowsize; \/*must be a power of two <= 32768. higher compresses more but is slower. Default value: 2048.*\/$/;"	m	struct:LodePNGCompressSettings
+writeBits	lodepng.c	/^static void writeBits(LodePNGBitWriter* writer, unsigned value, size_t nbits) {$/;"	f	file:
+writeBitsReversed	lodepng.c	/^static void writeBitsReversed(LodePNGBitWriter* writer, unsigned value, size_t nbits) {$/;"	f	file:
+writeLZ77data	lodepng.c	/^static void writeLZ77data(LodePNGBitWriter* writer, const uivector* lz77_encoded,$/;"	f	file:
+writeSignature	lodepng.c	/^static unsigned writeSignature(ucvector* out) {$/;"	f	file:
+year	lodepng.h	/^  unsigned year;    \/*2 bytes used (0-65535)*\/$/;"	m	struct:LodePNGTime
+zeros	lodepng.c	/^  unsigned short* zeros; \/*length of zeros streak, used as a second hash chain*\/$/;"	m	struct:Hash	file:
+zlib_compress	lodepng.c	/^static unsigned zlib_compress(unsigned char** out, size_t* outsize, const unsigned char* in,$/;"	f	file:
+zlib_decompress	lodepng.c	/^static unsigned zlib_decompress(unsigned char** out, size_t* outsize, size_t expected_size,$/;"	f	file:
+zlibsettings	lodepng.h	/^  LodePNGCompressSettings zlibsettings; \/*settings for the zlib encoder, such as window size, ...*\/$/;"	m	struct:LodePNGEncoderSettings
+zlibsettings	lodepng.h	/^  LodePNGDecompressSettings zlibsettings; \/*in here is the setting to ignore Adler32 checksums*\/$/;"	m	struct:LodePNGDecoderSettings

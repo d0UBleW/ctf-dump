@@ -1,0 +1,162 @@
+# Nmap 7.91 scan initiated Sat Mar 13 15:38:57 2021 as: nmap -sV -sC -oN nmap.txt -v 34.117.193.93
+Nmap scan report for 93.193.117.34.bc.googleusercontent.com (34.117.193.93)
+Host is up (0.030s latency).
+Not shown: 962 filtered ports
+PORT      STATE SERVICE    VERSION
+25/tcp    open  tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 25
+43/tcp    open  tcpwrapped
+80/tcp    open  http       Apache httpd 2.4.25 ((Debian))
+| http-git: 
+|   34.117.193.93:80/.git/
+|     Git repository found!
+|     .git/config matched patterns 'user'
+|     Repository description: Unnamed repository; edit this file 'description' to name the...
+|_    Last commit message: Management said I need to remove the team details so I redac...
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/meet-the-team.html
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: CONSTELLATIONS
+83/tcp    open  tcpwrapped
+84/tcp    open  tcpwrapped
+85/tcp    open  tcpwrapped
+89/tcp    open  tcpwrapped
+110/tcp   open  tcpwrapped
+143/tcp   open  tcpwrapped
+443/tcp   open  ssl/http   Apache httpd 2.4.25 ((Debian))
+| http-git: 
+|   34.117.193.93:443/.git/
+|     Git repository found!
+|     .git/config matched patterns 'user'
+|     Repository description: Unnamed repository; edit this file 'description' to name the...
+|_    Last commit message: Management said I need to remove the team details so I redac...
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/meet-the-team.html
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: CONSTELLATIONS
+| ssl-cert: Subject: commonName=constellations.page
+| Subject Alternative Name: DNS:constellations.page
+| Issuer: commonName=GTS CA 1D2/organizationName=Google Trust Services/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-03-08T14:52:28
+| Not valid after:  2021-06-06T14:52:28
+| MD5:   4fd8 43eb b3c9 b272 331a bd11 89eb 39a3
+|_SHA-1: ba12 bb1a 9cff 4913 8be3 79fd bfc2 4bad 39cc 48bf
+|_ssl-date: 2021-03-13T08:40:53+00:00; +2s from scanner time.
+| tls-alpn: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+| tls-nextprotoneg: 
+|   grpc-exp
+|   h2
+|_  http/1.1
+465/tcp   open  tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp   open  tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 587
+700/tcp   open  tcpwrapped
+993/tcp   open  tcpwrapped
+995/tcp   open  tcpwrapped
+1084/tcp  open  tcpwrapped
+1085/tcp  open  tcpwrapped
+1089/tcp  open  tcpwrapped
+1443/tcp  open  tcpwrapped
+1935/tcp  open  tcpwrapped
+3389/tcp  open  tcpwrapped
+5222/tcp  open  tcpwrapped
+| xmpp-info: 
+|   STARTTLS Failed
+|   info: 
+|     xmpp: 
+| 
+|     features: 
+| 
+|     unknown: 
+| 
+|     auth_mechanisms: 
+| 
+|     capabilities: 
+| 
+|     compression_methods: 
+| 
+|     errors: 
+|_      (timeout)
+5432/tcp  open  tcpwrapped
+5900/tcp  open  tcpwrapped
+5901/tcp  open  tcpwrapped
+5999/tcp  open  tcpwrapped
+8080/tcp  open  http-proxy
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: text/html; charset=UTF-8
+|     Referrer-Policy: no-referrer
+|     Content-Length: 1561
+|     Date: Sat, 13 Mar 2021 08:39:56 GMT
+|     <!DOCTYPE html>
+|     <html lang=en>
+|     <meta charset=utf-8>
+|     <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+|     <title>Error 404 (Not Found)!!1</title>
+|     <style>
+|_    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/goo
+|_http-title: Error 404 (Not Found)!!1
+8081/tcp  open  tcpwrapped
+8085/tcp  open  tcpwrapped
+8086/tcp  open  tcpwrapped
+8088/tcp  open  tcpwrapped
+8089/tcp  open  tcpwrapped
+8090/tcp  open  tcpwrapped
+8099/tcp  open  tcpwrapped
+9100/tcp  open  jetdirect?
+9200/tcp  open  tcpwrapped
+20000/tcp open  tcpwrapped
+30000/tcp open  tcpwrapped
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.91%I=7%D=3/13%Time=604C7A59%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,6B4,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20text
+SF:/html;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\nContent-L
+SF:ength:\x201561\r\nDate:\x20Sat,\x2013\x20Mar\x202021\x2008:39:56\x20GMT
+SF:\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=en>\n\x20\x20<meta\x20charset
+SF:=utf-8>\n\x20\x20<meta\x20name=viewport\x20content=\"initial-scale=1,\x
+SF:20minimum-scale=1,\x20width=device-width\">\n\x20\x20<title>Error\x2040
+SF:4\x20\(Not\x20Found\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{m
+SF:argin:0;padding:0}html,code{font:15px/22px\x20arial,sans-serif}html{bac
+SF:kground:#fff;color:#222;padding:15px}body{margin:7%\x20auto\x200;max-wi
+SF:dth:390px;min-height:180px;padding:30px\x200\x2015px}\*\x20>\x20body{ba
+SF:ckground:url\(//www\.google\.com/images/errors/robot\.png\)\x20100%\x20
+SF:5px\x20no-repeat;padding-right:205px}p{margin:11px\x200\x2022px;overflo
+SF:w:hidden}ins{color:#777;text-decoration:none}a\x20img{border:0}@media\x
+SF:20screen\x20and\x20\(max-width:772px\){body{background:none;margin-top:
+SF:0;max-width:none;padding-right:0}}#logo{background:url\(//www\.google\.
+SF:com/images/branding/googlelogo/1x/goo")%r(HTTPOptions,6B4,"HTTP/1\.0\x2
+SF:0404\x20Not\x20Found\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\
+SF:nReferrer-Policy:\x20no-referrer\r\nContent-Length:\x201561\r\nDate:\x2
+SF:0Sat,\x2013\x20Mar\x202021\x2008:39:56\x20GMT\r\n\r\n<!DOCTYPE\x20html>
+SF:\n<html\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x20
+SF:name=viewport\x20content=\"initial-scale=1,\x20minimum-scale=1,\x20widt
+SF:h=device-width\">\n\x20\x20<title>Error\x20404\x20\(Not\x20Found\)!!1</
+SF:title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{margin:0;padding:0}html,cod
+SF:e{font:15px/22px\x20arial,sans-serif}html{background:#fff;color:#222;pa
+SF:dding:15px}body{margin:7%\x20auto\x200;max-width:390px;min-height:180px
+SF:;padding:30px\x200\x2015px}\*\x20>\x20body{background:url\(//www\.googl
+SF:e\.com/images/errors/robot\.png\)\x20100%\x205px\x20no-repeat;padding-r
+SF:ight:205px}p{margin:11px\x200\x2022px;overflow:hidden}ins{color:#777;te
+SF:xt-decoration:none}a\x20img{border:0}@media\x20screen\x20and\x20\(max-w
+SF:idth:772px\){body{background:none;margin-top:0;max-width:none;padding-r
+SF:ight:0}}#logo{background:url\(//www\.google\.com/images/branding/google
+SF:logo/1x/goo");
+
+Host script results:
+|_clock-skew: 1s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar 13 15:41:03 2021 -- 1 IP address (1 host up) scanned in 126.03 seconds

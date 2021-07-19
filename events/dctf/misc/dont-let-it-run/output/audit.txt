@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 15 11:18:42 2021
+Invocation: foremost dragon.png 
+Output directory: /home/doublew/Documents/ctf/dctf/misc/dont-let-it-run/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: dragon.png
+Start: Sat May 15 11:18:42 2021
+Length: 3 KB (3526 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       3 KB 	          0 	  (595 x 842)
+Finish: Sat May 15 11:18:42 2021
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 15 11:18:42 2021
