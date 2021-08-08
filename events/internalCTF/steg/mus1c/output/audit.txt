@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Jul 25 15:09:32 2021
+Invocation: foremost Muisc.png 
+Output directory: /home/kali/Documents/ctf/events/internalCTF/steg/mus1c/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Muisc.png
+Start: Sun Jul 25 15:09:32 2021
+Length: 195 B (195 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	      195 B 	          0 	  (19 x 64)
+Finish: Sun Jul 25 15:09:32 2021
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun Jul 25 15:09:32 2021
