@@ -1,0 +1,204 @@
+[Detected] Error IDAT chunk data length! (offset: 0x13E)
+chunk length:1
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x25B)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x378)
+chunk length:80010306
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x495)
+chunk length:C0800103
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x5B2)
+chunk length:60C08001
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x6CF)
+chunk length:3060C080
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x7EC)
+chunk length:183060C0
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x909)
+chunk length:C183060
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xA26)
+chunk length:60C1830
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xB43)
+chunk length:3060C18
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xC60)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xD7D)
+chunk length:80010306
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xE9A)
+chunk length:C0800103
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0xFB7)
+chunk length:60C08001
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x10D4)
+chunk length:3060C080
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x11F1)
+chunk length:183060C0
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x130E)
+chunk length:C183060
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x142B)
+chunk length:60C1830
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1548)
+chunk length:3060C18
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1665)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1782)
+chunk length:80010306
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x189F)
+chunk length:C0800103
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x19BC)
+chunk length:D8000001
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1AD9)
+chunk length:A8000000
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1BF6)
+chunk length:60C1830
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1D13)
+chunk length:3060C18
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1E30)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x1F4D)
+chunk length:80010306
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x206A)
+chunk length:C0800103
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2187)
+chunk length:60C08001
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x22A4)
+chunk length:3060C080
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x23C1)
+chunk length:183060C0
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x24DE)
+chunk length:C183060
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x25FB)
+chunk length:60C1830
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2718)
+chunk length:3060C18
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2835)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2952)
+chunk length:80010306
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2A6F)
+chunk length:C0800103
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2B8C)
+chunk length:60C08001
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2CA9)
+chunk length:3060C080
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2DC6)
+chunk length:183060C0
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x2EE3)
+chunk length:C183060
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x3000)
+chunk length:60C1830
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x311D)
+chunk length:3060C18
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x323A)
+chunk length:103060C
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x3357)
+chunk length:7AAA0000
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x3474)
+chunk length:66D60000
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x3591)
+chunk length:183060C0
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x36AE)
+chunk length:C183060
+actual length:111
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x37CB)
+chunk length:60C1830
+actual length:47
+[Notice] Try fixing it? (y or n) [default:y] n
+[Detected] Error IDAT chunk data length! (offset: 0x381E)
+chunk length:60C1830
+actual length:3B
+[Notice] Try fixing it? (y or n) [default:y] n

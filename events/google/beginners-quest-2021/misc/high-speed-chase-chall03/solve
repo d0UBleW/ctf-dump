@@ -1,0 +1,9 @@
+if (scanArray[7] + scanArray[9] > scanArray[9] + scanArray[10] + scanArray[11] && scanArray[7] + scanArray[9] > scanArray[6] + scanArray[5] + scanArray[7]) {
+return 0;
+}
+else if (scanArray[10] + scanArray[11] + scanArray[12] + scanArray[9] > scanArray[6] + scanArray[5] + scanArray[4] + scanArray[7]) {
+return 1;
+}
+else {
+return -1;
+}
