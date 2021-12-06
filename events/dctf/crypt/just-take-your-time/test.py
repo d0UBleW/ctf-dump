@@ -33,4 +33,4 @@ while True:
 print(resp.decode())
 flag = resp.decode().split('\n')[-2]
 
-open('flag.txt', 'w').write(flag)
+# open('flag.txt', 'w').write(flag)

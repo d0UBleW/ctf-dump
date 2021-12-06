@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Nov 27 16:27:36 2021
+Invocation: foremost matabatin.jpg 
+Output directory: /home/kali/Documents/ctf/events/hack@10/garykessler/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: matabatin.jpg
+Start: Sat Nov 27 16:27:36 2021
+Length: 279 KB (286385 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	     170 KB 	          0 	 
+1:	00000340.png 	     109 KB 	     174253 	  (1280 x 720)
+Finish: Sat Nov 27 16:27:36 2021
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Nov 27 16:27:36 2021

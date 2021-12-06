@@ -1,0 +1,150 @@
+$ r2 sweep
+ -- ((fn [f s n] (str (f f s n) "dare2")) (fn [f s n] (pr s) (if (> n 0) (f f (str s "ra") (dec n)) s)) "" (/ 1.0 0))
+[0x08049070]> iI
+arch     x86
+baddr    0x8048000
+binsz    14066
+bintype  elf
+bits     32
+canary   false
+class    ELF32
+compiler GCC: (GNU) 11.1.0
+crypto   false
+endian   little
+havecode true
+intrp    /lib/ld-linux.so.2
+laddr    0x0
+lang     c
+linenum  true
+lsyms    true
+machine  Intel 80386
+maxopsz  16
+minopsz  1
+nx       false
+os       linux
+pcalign  0
+pic      false
+relocs   true
+relro    partial
+rpath    NONE
+sanitiz  false
+static   false
+stripped false
+subsys   linux
+va       true
+
+[0x08049070]> aa
+[x] Analyze all flags starting with sym. and entry0 (aa)
+[0x08049070]> afi main
+#
+offset: 0x08049186
+name: main
+size: 189
+is-pure: false
+realsz: 186
+stackframe: 48
+call-convention: reg
+cyclomatic-cost: 77
+cyclomatic-complexity: 2
+bits: 32
+type: sym [NEW]
+num-bbs: 7
+edges: 7
+end-bbs: 1
+call-refs: 0x080491ac J 0x080491f7 J 0x080491f3 J 0x08049200 J 0x08049050 C 0x08049040 C
+data-refs: 0x0804c040 0x0804c040 0x0804c040 0x0804c040
+code-xrefs: 0x080491a9 J 0x080491f0 J 0x080491b3 J 0x080491fd J
+noreturn: false
+in-degree: 4
+out-degree: 2
+data-xrefs: 0x0804909a 0x080490a0
+locals: 6
+args: 2
+var int32_t var_17h @ ebp-0x17
+var int32_t var_13h @ ebp-0x13
+var int32_t var_11h @ ebp-0x11
+var int32_t var_10h @ ebp-0x10
+var int32_t var_ch @ ebp-0xc
+var int32_t var_8h @ ebp-0x8
+arg int32_t arg_4h @ esp+0x34
+arg int32_t arg2 @ ebx
+diff: type: new
+[0x08049070]> af- main
+[0x08049070]> pD 186@main
+            ;-- main:
+            0x08049186      8d4c2404               lea ecx, [esp + 4]
+            0x0804918a      83e4f0                 and esp, 0xfffffff0
+            0x0804918d      ff71fc                 push dword [ecx - 4]
+            0x08049190      55                     push ebp
+            0x08049191      89e5                   mov ebp, esp
+            0x08049193      53                     push ebx
+            0x08049194      51                     push ecx
+            0x08049195      83ec10                 sub esp, 0x10
+            0x08049198      c745e9aa740df1         mov dword [ebp - 0x17], 0xf10d74aa
+            0x0804919f      66c745ede808           mov word [ebp - 0x13], 0x8e8
+            0x080491a5      c645ef00               mov byte [ebp - 0x11], 0
+        ┌─< 0x080491a9      eb01                   jmp 0x80491ac
+        │   0x080491ab      d3c7                   rol edi, cl
+            0x080491ad      45                     inc ebp
+            0x080491ae      f4                     hlt
+            0x080491af      0000                   add byte [eax], al
+            0x080491b1      0000                   add byte [eax], al
+        ┌─< 0x080491b3      eb42                   jmp 0x80491f7
+       ┌──> 0x080491b5      8b45f4                 mov eax, dword [ebp - 0xc]
+       ╎│   0x080491b8      0540c00408             add eax, str.AQ_8Y
+       ╎│   0x080491bd      0fb618                 movzx ebx, byte [eax]
+       ╎│   0x080491c0      8b4df4                 mov ecx, dword [ebp - 0xc]
+       ╎│   0x080491c3      baabaaaa2a             mov edx, 0x2aaaaaab
+       ╎│   0x080491c8      89c8                   mov eax, ecx
+       ╎│   0x080491ca      f7ea                   imul edx
+       ╎│   0x080491cc      89c8                   mov eax, ecx
+       ╎│   0x080491ce      c1f81f                 sar eax, 0x1f
+       ╎│   0x080491d1      29c2                   sub edx, eax
+       ╎│   0x080491d3      89d0                   mov eax, edx
+       ╎│   0x080491d5      01c0                   add eax, eax
+       ╎│   0x080491d7      01d0                   add eax, edx
+       ╎│   0x080491d9      01c0                   add eax, eax
+       ╎│   0x080491db      29c1                   sub ecx, eax
+       ╎│   0x080491dd      89ca                   mov edx, ecx
+       ╎│   0x080491df      0fb65415e9             movzx edx, byte [ebp + edx - 0x17]
+       ╎│   0x080491e4      8b45f4                 mov eax, dword [ebp - 0xc]
+       ╎│   0x080491e7      0540c00408             add eax, str.AQ_8Y
+       ╎│   0x080491ec      31da                   xor edx, ebx
+       ╎│   0x080491ee      8810                   mov byte [eax], dl
+      ┌───< 0x080491f0      eb01                   jmp 0x80491f3
+      │╎│   0x080491f2      a18345f401             mov eax, dword [0x1f44583]
+       ╎└─> 0x080491f7      837df43d               cmp dword [ebp - 0xc], 0x3d
+       └──< 0x080491fb      7eb8                   jle 0x80491b5
+        ┌─< 0x080491fd      eb01                   jmp 0x8049200
+        │   0x080491ff      6883ec0c6a             push 0x6a0cec83
+            0x08049204      1e                     push ds
+            0x08049205      e846feffff             call sym.imp.sysconf
+            0x0804920a      83c410                 add esp, 0x10
+            0x0804920d      8945f0                 mov dword [ebp - 0x10], eax
+            0x08049210      8b45f0                 mov eax, dword [ebp - 0x10]
+            0x08049213      f7d8                   neg eax
+            0x08049215      ba40c00408             mov edx, str.AQ_8Y
+            0x0804921a      21d0                   and eax, edx
+            0x0804921c      83ec04                 sub esp, 4
+            0x0804921f      6a07                   push 7
+            0x08049221      ff75f0                 push dword [ebp - 0x10]
+            0x08049224      50                     push eax
+            0x08049225      e816feffff             call sym.imp.mprotect
+            0x0804922a      83c410                 add esp, 0x10
+            0x0804922d      b840c00408             mov eax, str.AQ_8Y
+            0x08049232      ffd0                   call eax
+            0x08049234      b800000000             mov eax, 0
+            0x08049239      8d65f8                 lea esp, [ebp - 8]
+            0x0804923c      59                     pop ecx
+            0x0804923d      5b                     pop ebx
+            0x0804923e      5d                     pop ebp
+[0x08049070]> px 100@0x0804c040
+- offset -   0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
+0x0804c040  4151 3c38 591a f026 8dc3 a24a 488e 3c31  AQ<8Y..&...JH.<1
+0x0804c050  580c 9baf bef0 b139 78c6 1f3c 6839 6ac4  X......9x..<h9j.
+0x0804c060  0cc0 33bb abb9 8d19 3ef7 558b 21c8 ee73  ..3.....>.U.!..s
+0x0804c070  8e0d 26c9 9735 850d 37d8 db20 854c 0000  ..&..5..7.. .L..
+0x0804c080  ffff ffff ffff ffff ffff ffff ffff ffff  ................
+0x0804c090  ffff ffff ffff ffff ffff ffff ffff ffff  ................
+0x0804c0a0  ffff ffff                                ....
+[0x08049070]>

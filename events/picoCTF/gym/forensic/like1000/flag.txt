@@ -1,1 +1,0 @@
-picoCTF{l0t5_0f_TAR5}

@@ -26,3 +26,4 @@ for i in range(0, len(enc_string)-9, 2):
 		f = open('pos.txt', 'a')
 		f.write(bytes.fromhex(res).decode()+'\n')
 		f.close()
+        break

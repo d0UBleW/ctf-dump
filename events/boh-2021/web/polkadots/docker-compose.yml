@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: boh21-polka-dots/game
+    environment:
+      - FLAG=BOH21{fake_flag}
+    restart: always
+    ports:
+      - "8300:80"

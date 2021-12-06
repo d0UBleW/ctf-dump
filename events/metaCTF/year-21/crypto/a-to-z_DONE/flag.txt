@@ -1,0 +1,1 @@
+MetaCTF{bashful_is_my_fav_dwarf}

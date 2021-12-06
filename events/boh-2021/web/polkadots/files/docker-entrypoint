@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sed -i "s/BOH21{fake_flag}/$FLAG/" /var/www/html/private/flag.txt
+
+export FLAG=not_flag
+FLAG=not_flag
+
+nginx &
+
+tail -F /var/log/nginx/error.log /var/log/nginx/access.log

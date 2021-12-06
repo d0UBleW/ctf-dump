@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Nov  2 21:24:19 2021
+Invocation: foremost All_Start.mp3 
+Output directory: /home/kali/Documents/ctf/events/boh2019-final/nyanyanya/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: All_Start.mp3
+Start: Tue Nov  2 21:24:19 2021
+Length: 3 MB (3356672 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     118 KB 	         74 	  (300 x 300)
+Finish: Tue Nov  2 21:24:19 2021
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Nov  2 21:24:19 2021

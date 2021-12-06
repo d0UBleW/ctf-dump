@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from Crypto.Util.number import inverse
+from Crypto.Util.number import inverse, bytes_to_long, long_to_bytes
 
 c = 240986837130071017759137533082982207147971245672412893755780400885108149004760496
 n = 831416828080417866340504968188990032810316193533653516022175784399720141076262857
@@ -16,5 +16,6 @@ d = inverse(e,oiler)
 
 m = pow(c, d, n)
 print(m)
-print(hex(m))
-print(bytearray.fromhex(hex(m)[2:]).decode())
+print(long_to_bytes(m))
+# print(hex(m))
+# print(bytearray.fromhex(hex(m)[2:]).decode())

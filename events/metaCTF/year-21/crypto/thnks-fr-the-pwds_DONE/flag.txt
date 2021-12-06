@@ -1,0 +1,1 @@
+MetaCTF{encoding_is_N0T_the_same_as_encryption!!}
